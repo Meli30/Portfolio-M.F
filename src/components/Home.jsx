@@ -60,7 +60,7 @@ const Home = () => {
             ¡Hola! Soy Melisa Fernández
           </h1>
           <p className="text-sm sm:text-base md:text-xl mt-4 text-white drop-shadow-md">
-            Desarrolladora web en formación, apasionada por el diseño y el frontend 💻✨
+            Desarrolladora web, apasionada por el diseño y el frontend 💻✨
           </p>
 
           {/* Botones debajo del texto (solo escritorio) */}

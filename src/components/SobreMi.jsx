@@ -39,8 +39,7 @@ const SobreMi = () => {
       <div className="text-gray-800 dark:text-gray-200 text-center md:text-left">
         <h2 className="text-3xl font-bold mb-4">Sobre mí</h2>
         <p className="mb-4">
-          ¡Hola! Soy Melisa Fernández, una apasionada desarrolladora frontend en
-          formación. Me encanta crear interfaces limpias, funcionales y accesibles
+          ¡Hola! Soy Melisa Fernández. Desarroladora web. Me encanta crear interfaces limpias, funcionales y accesibles
           usando tecnologías modernas como React, Tailwind CSS y JavaScript.
         </p>
         <p>
