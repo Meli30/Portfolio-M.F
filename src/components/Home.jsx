@@ -56,29 +56,30 @@ const Home = () => {
 
         {/* Contenido central */}
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[90%] max-w-2xl text-center px-4 z-20">
-          <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold text-white drop-shadow-lg">
+          <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold text-black drop-shadow-lg">
             ¡Hola! Soy Melisa Fernández
           </h1>
-          <p className="text-sm sm:text-base md:text-xl mt-4 text-white drop-shadow-md">
+          <p className="text-sm sm:text-base md:text-xl mt-4 text-black drop-shadow-md">
             Desarrolladora web, apasionada por el diseño y el frontend 💻✨
           </p>
 
           {/* Botones debajo del texto (solo escritorio) */}
-          <div className="md:flex justify-between gap-10 mt-4">
-            <Button className="mb-2 md:mb-0"
+          <div className="md:flex justify-evenly gap-2 mt-6">
+          <Button className="hover:bg-fuchsia-300"
+              onClick={() => scrollToId("proyectos")}
+              variant="dark-secondary"
+              ariaLabel="Ir a la sección Proyectos"
+            >
+              Ver proyectos
+            </Button>  
+            <Button 
               onClick={() => scrollToId("sobre-mi")}
-              variant="secondary"
+              variant="dark:secondary"
               ariaLabel="Ir a la sección Sobre mí"
             >
               Sobre mí
             </Button>
-            <Button
-              onClick={() => scrollToId("proyectos")}
-              variant="primary"
-              ariaLabel="Ir a la sección Proyectos"
-            >
-              Ver proyectos
-            </Button>
+            
           </div>
 
           {/* Aquí podrías poner el menú hamburguesa para móvil si querés */}

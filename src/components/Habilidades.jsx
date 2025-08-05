@@ -60,76 +60,76 @@ const Habilidades = () => {
       ref={ref}
       className="max-w-6xl mx-auto py-16 px-4"
     >
-      <h2 className="text-4xl font-bold text-center mb-12 text-gray-800 dark:text-gray-100">
+      <h2 className="text-4xl font-bold text-center mb-12 text-black">
         Habilidades
       </h2>
       <div className="flex flew-row flex-wrap justify-evenly">
-        <div class="flex flex-col gap-8 p-8 sm:flex-row sm:items-center sm:gap-6 sm:py-4 ...">
+        <div class="flex flex-col gap-8 p-8 sm:flex-row sm:items-center sm:gap-6 sm:py-4">
   <img 
-  class="mx-auto block h-24 rounded-full sm:mx-0 sm:shrink-0" 
+  class="mx-auto block h-22 rounded-full sm:mx-0 sm:shrink-0" 
   src="/img/erin-lindford.jpg" 
   alt="JavaScipt" />
   <div class="space-y-2 text-center sm:text-left">
     <div class="space-y-0.5">
       <p class="text-lg font-semibold text-black">Erin Lindford</p>
-      <p class="font-medium text-gray-500">Product Engineer</p>
     </div>
-    <button class="bg-sky-500 hover:bg-sky-700 ...">Save changes</button>
   </div>
 </div>
 
 <div class="flex flex-col gap-2 p-8 sm:flex-row sm:items-center sm:gap-6 sm:py-4 ...">
-  <img class="mx-auto block h-24 rounded-full sm:mx-0 sm:shrink-0" src="/img/erin-lindford.jpg" alt="" />
+  <img class="mx-auto block h-24 rounded-full sm:mx-0 sm:shrink-0" 
+  src="/img/erin-lindford.jpg" 
+  alt="CSS" />
   <div class="space-y-2 text-center sm:text-left">
     <div class="space-y-0.5">
       <p class="text-lg font-semibold text-black">Erin Lindford</p>
-      <p class="font-medium text-gray-500">Product Engineer</p>
     </div>
-    <button class="bg-sky-500 hover:bg-sky-700 ...">Save changes</button>
   </div>
 </div>
 
 <div class="flex flex-col gap-2 p-8 sm:flex-row sm:items-center sm:gap-6 sm:py-4 ...">
-  <img class="mx-auto block h-24 rounded-full sm:mx-0 sm:shrink-0" src="/img/erin-lindford.jpg" alt="" />
+  <img class="mx-auto block h-24 rounded-full sm:mx-0 sm:shrink-0" 
+  src="/img/erin-lindford.jpg" 
+  alt="React" />
   <div class="space-y-2 text-center sm:text-left">
     <div class="space-y-0.5">
       <p class="text-lg font-semibold text-black">Erin Lindford</p>
-      <p class="font-medium text-gray-500">Product Engineer</p>
     </div>
-    <button class="bg-sky-500 hover:bg-sky-700 ...">Save changes</button>
   </div>
 </div>
 
 <div class="flex flex-col gap-2 p-8 sm:flex-row sm:items-center sm:gap-6 sm:py-4 ...">
-  <img class="mx-auto block h-24 rounded-full sm:mx-0 sm:shrink-0" src="/img/erin-lindford.jpg" alt="" />
+  <img class="mx-auto block h-24 rounded-full sm:mx-0 sm:shrink-0" 
+  src="/img/erin-lindford.jpg" 
+  alt="Tailwind" />
   <div class="space-y-2 text-center sm:text-left">
     <div class="space-y-0.5">
       <p class="text-lg font-semibold text-black">Erin Lindford</p>
-      <p class="font-medium text-gray-500">Product Engineer</p>
     </div>
-    <button class="bg-sky-500 hover:bg-sky-700 ...">Save changes</button>
   </div>
 </div>
 
 <div class="flex flex-col gap-2 p-8 sm:flex-row sm:items-center sm:gap-6 sm:py-4 ...">
-  <img class="mx-auto block h-24 rounded-full sm:mx-0 sm:shrink-0" src="/img/erin-lindford.jpg" alt="" />
+  <img class="mx-auto block h-24 rounded-full sm:mx-0 sm:shrink-0" 
+  src="/img/erin-lindford.jpg" 
+  alt="HTML" />
   <div class="space-y-2 text-center sm:text-left">
     <div class="space-y-0.5">
       <p class="text-lg font-semibold text-black">Erin Lindford</p>
-      <p class="font-medium text-gray-500">Product Engineer</p>
     </div>
-    <button class="bg-sky-500 hover:bg-sky-700 ...">Save changes</button>
   </div>
 </div>
 
 <div class="flex flex-col gap-2 p-8 sm:flex-row sm:items-center sm:gap-6 sm:py-4 ...">
-  <img class="mx-auto block h-24 rounded-full sm:mx-0 sm:shrink-0" src="/img/erin-lindford.jpg" alt="" />
+  <img class="mx-auto block h-24 rounded-full sm:mx-0 sm:shrink-0" 
+  src="/img/erin-lindford.jpg" 
+  alt="NODE" />
   <div class="space-y-2 text-center sm:text-left">
     <div class="space-y-0.5">
       <p class="text-lg font-semibold text-black">Erin Lindford</p>
-      <p class="font-medium text-gray-500">Product Engineer</p>
+      
     </div>
-    <button class="bg-sky-500 hover:bg-sky-700 ...">Save changes</button>
+    
   </div>
 </div>
       </div>

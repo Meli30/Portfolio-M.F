@@ -5,6 +5,7 @@ import Proyectos from './components/Proyectos';
 import Contacto from './components/Contacto';
 import ThemeToggle from './components/ThemeToggle';
 import './App.css';
+import './index.css';
 
 
 function App() {
